@@ -480,8 +480,15 @@ h2.special-heading + p {
   font-size: 18px;
 }
 
-.foteer span {
+.foteer span:last-of-type {
   color: var(--main-color);
   font-weight: bold;
+}
+
+.foteer span:first-of-type {
+  margin: 0 5px;
+  color: #8BC34A;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 /* end foteer */
