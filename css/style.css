@@ -471,3 +471,17 @@ h2.special-heading + p {
   margin-left: 10px;
 }
 /* end contact */
+/* start foteer */
+.foteer {
+  background-color: var(--secondary-color);
+  padding: 30px 10px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.foteer span {
+  color: var(--main-color);
+  font-weight: bold;
+}
+/* end foteer */
